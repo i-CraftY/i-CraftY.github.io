@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>爱折腾的小记</title>
   
-  
+  <subtitle>生命不息，折腾不止</subtitle>
   <link href="https://i-crafty.github.io/atom.xml" rel="self"/>
   
   <link href="https://i-crafty.github.io/"/>
-  <updated>2023-03-24T13:06:52.406Z</updated>
+  <updated>2023-03-24T15:11:47.360Z</updated>
   <id>https://i-crafty.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>diynote</title>
+    <link href="https://i-crafty.github.io/2023/03/24/diynote/"/>
+    <id>https://i-crafty.github.io/2023/03/24/diynote/</id>
+    <published>2023-03-24T15:07:56.000Z</published>
+    <updated>2023-03-24T15:11:47.360Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;买了第一个域名&quot;&gt;&lt;a href=&quot;#买了第一个域名&quot; class=&quot;headerlink&quot; title=&quot;买了第一个域名&quot;&gt;&lt;/a&gt;买了第一个域名&lt;/h1&gt;&lt;h1 id=&quot;搭建了-Alist-用于看动漫等&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="随记" scheme="https://i-crafty.github.io/tags/%E9%9A%8F%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
