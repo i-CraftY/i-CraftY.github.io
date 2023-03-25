@@ -45,6 +45,8 @@
 
 
     
+        <link rel="stylesheet" type="text/css" href="/css/reward.css">
+    
 
 
 
@@ -508,6 +510,39 @@
                 </div>
             </div>
             
+                <div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.png" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.jpg" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
         </div>
     </div>
 
@@ -532,51 +567,46 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2023/03/25/2023-zhe-teng-ji/">
+                <a href="/2023/03/25/markdown-xue-xi-bi-ji/">
                     <div class="card-image">
                         
-                        <img src="https://p6.itc.cn/images01/20220309/97cc8cc0fe304265a797d429aeb57ed6.png" class="responsive-img" alt="2023折腾记">
                         
-                        <span class="card-title">2023折腾记</span>
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="markdown学习笔记">
+                        
+                        <span class="card-title">markdown学习笔记</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            记录一年中折腾过的所有，就当做个备忘录好啦
+                            markdown基本语法
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-03-25
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2023-03-25
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E6%8A%98%E8%85%BE/" class="post-category">
-                                    折腾
+                            <a href="/categories/%E5%AD%A6%E4%B9%A0/" class="post-category">
+                                    学习
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%8A%98%E8%85%BE/">
-                        <span class="chip bg-color">折腾</span>
-                    </a>
-                    
-                    <a href="/tags/%E8%AE%B0%E5%BD%95/">
-                        <span class="chip bg-color">记录</span>
+                    <a href="/tags/markdown/">
+                        <span class="chip bg-color">markdown</span>
                     </a>
                     
                 </div>
@@ -850,7 +880,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">548</span>
+                        class="white-color">759</span>
             
             
             

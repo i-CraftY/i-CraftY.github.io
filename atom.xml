@@ -6,7 +6,7 @@
   <link href="https://i-crafty.github.io/atom.xml" rel="self"/>
   
   <link href="https://i-crafty.github.io/"/>
-  <updated>2023-03-25T06:06:11.392Z</updated>
+  <updated>2023-03-25T11:11:37.242Z</updated>
   <id>https://i-crafty.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>markdown学习笔记</title>
+    <link href="https://i-crafty.github.io/2023/03/25/markdown-xue-xi-bi-ji/"/>
+    <id>https://i-crafty.github.io/2023/03/25/markdown-xue-xi-bi-ji/</id>
+    <published>2023-03-25T11:06:14.000Z</published>
+    <updated>2023-03-25T11:11:37.242Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一级标题&quot;&gt;&lt;a href=&quot;#一级标题&quot; class=&quot;headerlink&quot; title=&quot;一级标题&quot;&gt;&lt;/a&gt;一级标题&lt;/h1&gt;&lt;h2 id=&quot;二级标题&quot;&gt;&lt;a href=&quot;#二级标题&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="https://i-crafty.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="markdown" scheme="https://i-crafty.github.io/tags/markdown/"/>
+    
+  </entry>
   
   <entry>
     <title>2023折腾记</title>
