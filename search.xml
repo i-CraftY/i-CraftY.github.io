@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>markdown学习笔记</title>
+      <link href="/2023/03/25/markdown-xue-xi-bi-ji/"/>
+      <url>/2023/03/25/markdown-xue-xi-bi-ji/</url>
+      
+        <content type="html"><![CDATA[<h1>一级标题</h1><h2 id="二级标题">二级标题</h2><h3 id="三级标题">三级标题</h3><h4 id="四级标题">四级标题</h4><h5 id="五级标题">五级标题</h5><h6 id="六级标题">六级标题</h6><hr><p><em>斜体</em></p><p><em>斜体</em></p><p><strong>粗体</strong></p><p><strong>粗体</strong></p><p><em><strong>粗斜体</strong></em></p><p><em><strong>粗斜体</strong></em></p><p>分隔线</p><hr><hr><hr><p><s>删除线</s></p><p><u>下划线</u></p><p>脚注<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p><p>列表</p><ul class="lvl-0"><li class="lvl-2"><p>第一项</p></li><li class="lvl-2"><p>第二项</p></li></ul><ul class="lvl-0"><li class="lvl-2"><p>第一项</p></li></ul><ul class="lvl-0"><li class="lvl-2"><p>第一项</p></li></ul><ol><li class="lvl-3"><p>第一项<br>- 嵌套</p></li><li class="lvl-3"><p>第二项</p></li><li class="lvl-3"><p>第三项</p></li></ol><blockquote><p>区块</p><blockquote><p>区块嵌套</p></blockquote></blockquote><p>区块中使用列表</p><blockquote><ul class="lvl-1"><li class="lvl-2"><p>列表</p></li></ul></blockquote><ul class="lvl-0"><li class="lvl-2"><p>第一项</p><blockquote><p>菜鸟教程学的不仅是技术更是梦想</p></blockquote></li><li class="lvl-2"><p>第二项</p><blockquote><p>菜鸟</p></blockquote><p><code>printf()</code>代码</p><p><code>代码片段</code></p>  <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>   <pre class="line-numbers language-c" data-language="c"><code class="language-c">代码区块<span class="token function">printf</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>链接<a href="www.baidu.com">名称</a></p><p>链接<a href="www.baidu.com">名称</a></p><p>高级链接1 <a href="https://www.baidu.com">第一个</a></p><p><img src="http://static.runoob.com/images/runoob-logo.png" alt="alt icon"></p>  <pre class="line-numbers language-none"><code class="language-none">![alt 属性](链接)也可用变量，同链接<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><table><thead><tr><th style="text-align:center">表头</th><th style="text-align:center">表头</th></tr></thead><tbody><tr><td style="text-align:center">单元格</td><td style="text-align:center">单元格</td></tr></tbody></table><p><kbd>Enter</kbd></p><p><kbd>Ctrl</kbd></p><p>$f(x) = sin(x)$</p><p>$f(x)=cosx+10$</p>  <pre class="line-numbers language-mermaid" data-language="mermaid"><code class="language-mermaid"><span class="token keyword">graph</span> LRA<span class="token text string">[方形]</span> <span class="token arrow operator">--&gt;</span>B<span class="token text string">(圆角)</span> B<span class="token arrow operator">--&gt;</span>C<span class="token text string">{a}</span> C<span class="token arrow operator">--&gt;</span><span class="token label property">|a=1|</span> D<span class="token text string">[1]</span> C<span class="token arrow operator">--&gt;</span><span class="token label property">|a=2|</span> E<span class="token text string">[2]</span> F<span class="token text string">[横向流程图]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li></ul><hr class="footnotes-sep"><section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p>格式[^文字] <a href="#fnref1" class="footnote-backref">↩︎</a></p></li></ol></section>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2023折腾记</title>
+      <link href="/2023/03/25/2023-zhe-teng-ji/"/>
+      <url>/2023/03/25/2023-zhe-teng-ji/</url>
+      
+        <content type="html"><![CDATA[<h2 id="RSSHub">RSSHub</h2><p>在<a href="https://github.com/DIYgod/RSSHub">RSSHub</a>贡献了几个站点的rss规则，此乃神器也</p><h2 id="Alist">Alist</h2><h3 id="起因">起因</h3><p>假期接触到<a href="https://github.com/alist-org/alist">alist</a>项目，搜刮资源十分方便，想到自己有一个<code>360t7</code>可以搭一个</p><h3 id="经过">经过</h3><p>本想在``docker<code>里面搭建的，没想到路由器的存储不够，想法卒。后找到二进制文件进行安装，然路由器重启后不会自动运行</code>alist`，后接触到<a href="https://github.com/sbwml/luci-app-alist">luci-app-alist</a>，成功搭建</p><h3 id="好景不长">好景不长</h3><p>随着阿里云盘限制措施加强，阿里云分享驱动失效，搜刮资源变得困难起来。</p><h2 id="第一个域名">第一个域名</h2><p><code>alist</code>已成功搭建，为分享他人使用。特意买了一年的域名，搭配<code>ddns</code>使用，这方面的比较生疏，第一次接触，现做一个记录。</p><p>注册域名后：</p><ul class="lvl-0"><li class="lvl-2"><p>添加解析</p></li><li class="lvl-2"><p><code>ddns</code>中添加查询主机名和域名，<code>loudflare</code>域名格式为<code>xx&lt;strong style="color:red"&gt;@&lt;/strong&gt;xx</code></p></li><li class="lvl-2"><p>添加api授权</p></li><li class="lvl-2"><p>指定解析ip，设置更新间隔，等待解析(TTL)</p></li></ul><p><s>折腾了很久的https，无果（悲</s></p><h2 id="申请了免费域名">申请了免费域名</h2><p><code>eu.org</code></p><h2 id="N1盒子">N1盒子</h2><p>随着建站的欲望渐长，自海鲜市场购入了一台95新的N1盒子（网心云系统），后来才知晓，网心云系统刷成op必须短接线刷，为此从某东购入了HDMI线和USB公对公线。短接成功，怎么刷都刷不成，卒。</p><p>原因可能包括：</p><ol><li class="lvl-3"><p>AMD卡对晶晨工具兼容性不佳</p></li><li class="lvl-3"><p>USB供电不足</p></li><li class="lvl-3"><p><s>机器问题(可以排除)</s></p></li></ol><p>救砖参考：</p><ul class="lvl-0"><li class="lvl-3"><p><a href="https://www.123pan.com/s/2CjDVv-oE3xd#123456">线刷包和工具</a></p></li><li class="lvl-3"><p><a href="https://luotianyi.vc/1346.html">斐讯N1探索手记</a></p></li><li class="lvl-3"><p><a href="https://www.bilibili.com/video/BV19J411c7Zf/">bilibili解密：斐讯N1为何火了？分享全套N1救砖指南！值得收藏</a></p></li></ul><p>为及时止损，暂时将其当作传家宝收了起来，有机会再试<br><img src="https://pic1.zhimg.com/80/v2-3c575adf72e2ef6b7f8624af81c1a9c8_1440w.webp" alt="哭着离开"></p><hr><blockquote><p>眼看<code>360t7</code>可用空间越来越小，倒腾N1的想法越来越强烈，再不整起来，<code>alist</code>都搭不起哩</p></blockquote><p>恩山上有人说是<code>供电不足</code>，可以用升压模块或者用自带供电的扩展坞。一路下来<code>供电不足</code>的可能性最大。</p><p>百度了解到笔记本电脑和台式机的USB供电存在差异，特别是主机后面供电最大可达<code>0.5A</code>，为了验证这一观点，从某宝购入了<code>电压检测表</code><img src="https://qnam.smzdm.com/202207/21/62d8e036cbb335396.jpg_orig.jpg" alt="我也年纪大了"><br>短接线刷发现<code>A口</code>没有电流</p><p>两种猜测</p><ol><li class="lvl-3"><p>电流不够大</p></li><li class="lvl-3"><p>线刷救不回来</p></li></ol><p>第一种还好说，买个带供电的扩展坞，整好苦某想的辣鸡扩展坞久矣</p><p>第二种就只能通过ttl了，隧下单了t12电络铁和杜邦线，想着焊着玩几下也不错，毕竟学过怎么焊接没有实战过</p><blockquote><p>也没别的感觉，就是肉疼</p></blockquote><p><img src="http://rs6igs3z7.sabkt.gdipper.com/img/1680257137368.jpg" alt="扩展坞"></p><p>到手后，就开始拆机线刷，虽然过程有点曲折，好在最后是成功了。杜邦线已经到了，只能把电烙铁退了回血。</p><p><img src="http://rs6igs3z7.sabkt.gdipper.com/img/success.png" alt="success"></p><p>接下来又有折腾的了，刷个<code>op</code>，跑<code>docker</code>也不错，还可以刷成<code>Android</code>固件，当个机顶盒</p><blockquote><p>不过，<code>扩展坞</code>有点问题，网口总是没用，联系商家换货咯</p></blockquote><h2 id="搭建-hexo博客">搭建 hexo博客</h2><p>先前曾尝试用<code>GitHub Pages</code>搭建博客，浅尝辄止。</p><p>这次使用<code>hexo</code>正式搭建了博客，尚未购买服务器。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 折腾 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 折腾 </tag>
+            
+            <tag> 记录 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2023/03/24/hello-world/"/>
+      <url>/2023/03/24/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start">Quick Start</h2><h3 id="Create-a-new-post">Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server">Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files">Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>

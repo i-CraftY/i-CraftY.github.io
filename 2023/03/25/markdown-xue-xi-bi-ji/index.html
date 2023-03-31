@@ -355,7 +355,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    211
+                    212
                 </div>
                 
 
@@ -385,7 +385,13 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><hr>
+                <h1>一级标题</h1>
+<h2 id="二级标题">二级标题</h2>
+<h3 id="三级标题">三级标题</h3>
+<h4 id="四级标题">四级标题</h4>
+<h5 id="五级标题">五级标题</h5>
+<h6 id="六级标题">六级标题</h6>
+<hr>
 <p><em>斜体</em></p>
 <p><em>斜体</em></p>
 <p><strong>粗体</strong></p>
@@ -396,26 +402,39 @@
 <hr>
 <hr>
 <hr>
-<p><del>删除线</del></p>
+<p><s>删除线</s></p>
 <p><u>下划线</u></p>
-<p>脚注<a href="%E6%A0%BC%E5%BC%8F%5B%5E%E6%96%87%E5%AD%97%5D">^我是脚注</a></p>
+<p>脚注<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
 <p>列表</p>
-<ul>
-<li><p>第一项</p>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>第一项</p>
 </li>
-<li><p>第二项</p>
+<li class="lvl-2">
+<p>第二项</p>
 </li>
 </ul>
-<ul>
-<li>第一项</li>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>第一项</p>
+</li>
 </ul>
-<ul>
-<li>第一项</li>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>第一项</p>
+</li>
 </ul>
 <ol>
-<li>第一项<br>- 嵌套</li>
-<li>第二项</li>
-<li>第三项</li>
+<li class="lvl-3">
+<p>第一项<br>
+- 嵌套</p>
+</li>
+<li class="lvl-3">
+<p>第二项</p>
+</li>
+<li class="lvl-3">
+<p>第三项</p>
+</li>
 </ol>
 <blockquote>
 <p>区块</p>
@@ -425,55 +444,68 @@
 </blockquote>
 <p>区块中使用列表</p>
 <blockquote>
-<ul>
-<li>列表</li>
+<ul class="lvl-1">
+<li class="lvl-2">
+<p>列表</p>
+</li>
 </ul>
 </blockquote>
-<ul>
-<li><p>第一项</p>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>第一项</p>
 <blockquote>
-<p>菜鸟教程<br>学的不仅是技术更是梦想</p>
+<p>菜鸟教程学的不仅是技术更是梦想</p>
 </blockquote>
 </li>
-<li><p>第二项</p>
+<li class="lvl-2">
+<p>第二项</p>
 <blockquote>
 <p>菜鸟</p>
 </blockquote>
-<p>  <code>printf()</code>代码</p>
-<p>  <code>代码片段</code></p>
+<p><code>printf()</code>代码</p>
+<p><code>代码片段</code></p>
   <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
    <pre class="line-numbers language-c" data-language="c"><code class="language-c">代码区块
 <span class="token function">printf</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<p>  链接<a href="www.baidu.com">名称</a></p>
-<p>  链接<a href="www.baidu.com">名称</a></p>
-<p>  高级链接1 <a target="_blank" rel="noopener" href="https://www.baidu.com/">第一个</a></p>
-<p>  <img src="http://static.runoob.com/images/runoob-logo.png" alt="alt icon"></p>
+<p>链接<a href="www.baidu.com">名称</a></p>
+<p>链接<a href="www.baidu.com">名称</a></p>
+<p>高级链接1 <a target="_blank" rel="noopener" href="https://www.baidu.com">第一个</a></p>
+<p><img src="http://static.runoob.com/images/runoob-logo.png" alt="alt icon"></p>
   <pre class="line-numbers language-none"><code class="language-none">![alt 属性](链接)
 也可用变量，同链接<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <table>
 <thead>
 <tr>
-<th align="center">表头</th>
-<th align="center">表头</th>
+<th style="text-align:center">表头</th>
+<th style="text-align:center">表头</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">单元格</td>
-<td align="center">单元格</td>
+<tbody>
+<tr>
+<td style="text-align:center">单元格</td>
+<td style="text-align:center">单元格</td>
 </tr>
-</tbody></table>
-<p>  <kbd>Enter</kbd></p>
-<p>  <kbd>Ctrl</kbd></p>
-<p>  $f(x) = sin(x)$</p>
-<p>  $f(x)=cosx+10$</p>
+</tbody>
+</table>
+<p><kbd>Enter</kbd></p>
+<p><kbd>Ctrl</kbd></p>
+<p>$f(x) = sin(x)$</p>
+<p>$f(x)=cosx+10$</p>
   <pre class="line-numbers language-mermaid" data-language="mermaid"><code class="language-mermaid"><span class="token keyword">graph</span> LR
 A<span class="token text string">[方形]</span> <span class="token arrow operator">--&gt;</span>B<span class="token text string">(圆角)</span>
  B<span class="token arrow operator">--&gt;</span>C<span class="token text string">{a}</span>
  C<span class="token arrow operator">--&gt;</span><span class="token label property">|a=1|</span> D<span class="token text string">[1]</span>
  C<span class="token arrow operator">--&gt;</span><span class="token label property">|a=2|</span> E<span class="token text string">[2]</span>
- F<span class="token text string">[横向流程图]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+ F<span class="token text string">[横向流程图]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+</li>
 </ul>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>格式[^文字] <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
 
                 
             </div>
@@ -948,7 +980,7 @@ A<span class="token text string">[方形]</span> <span class="token arrow operat
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">759</span>
+                        class="white-color">1.1k</span>
             
             
             
