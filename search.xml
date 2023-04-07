@@ -4,13 +4,19 @@
   
     
     <entry>
-      <title>test</title>
+      <title>自定义容器测试</title>
       <link href="/2023/04/07/test/"/>
       <url>/2023/04/07/test/</url>
       
-        <content type="html"><![CDATA[<div class="tips"><p><strong>提示</strong><br>这是一个提示</p></div><div class="danger"><p><strong>危险</strong><br>危险</p></div><div class="warning"><p><strong>警告</strong><br>警告</p></div><div class="success"><p><strong>success</strong></p></div><p>++ <strong>点击隐藏</strong><br>隐藏内容<br>++</p>]]></content>
+        <content type="html"><![CDATA[<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">::: tips<span class="token bold"><span class="token punctuation">**</span><span class="token content">提示</span><span class="token punctuation">**</span></span>这是一个提示:::<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><div class="tips"><p><strong>提示</strong><br>这是一个提示</p></div><pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">::: danger<span class="token bold"><span class="token punctuation">**</span><span class="token content">危险</span><span class="token punctuation">**</span></span>危险:::<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><div class="danger"><p><strong>危险</strong><br>危险</p></div><pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">::: warning<span class="token bold"><span class="token punctuation">**</span><span class="token content">警告</span><span class="token punctuation">**</span></span>警告 :::<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><div class="warning"><p><strong>警告</strong><br>警告</p></div><pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">::: success<span class="token bold"><span class="token punctuation">**</span><span class="token content">success</span><span class="token punctuation">**</span></span>:::<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><div class="success"><p><strong>success</strong></p></div><pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">+++ <span class="token bold"><span class="token punctuation">**</span><span class="token content">点击隐藏</span><span class="token punctuation">**</span></span>隐藏内容+++<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><details open=""><summary><span class="pre-summary">&nbsp;</span><strong>点击隐藏</strong></summary><p>隐藏内容</p></details>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
       
     </entry>
     

@@ -6,7 +6,7 @@
   <link href="https://i-crafty.github.io/atom.xml" rel="self"/>
   
   <link href="https://i-crafty.github.io/"/>
-  <updated>2023-04-07T13:12:46.057Z</updated>
+  <updated>2023-04-07T13:15:59.280Z</updated>
   <id>https://i-crafty.github.io/</id>
   
   <author>
@@ -17,31 +17,26 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test</title>
+    <title>自定义容器测试</title>
     <link href="https://i-crafty.github.io/2023/04/07/test/"/>
     <id>https://i-crafty.github.io/2023/04/07/test/</id>
     <published>2023-04-07T13:09:23.000Z</published>
-    <updated>2023-04-07T13:12:46.057Z</updated>
+    <updated>2023-04-07T13:15:59.280Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;div class=&quot;tips&quot;&gt;
-&lt;p&gt;&lt;strong&gt;提示&lt;/strong&gt;&lt;br&gt;
-这是一个提示&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;danger&quot;&gt;
-&lt;p&gt;&lt;strong&gt;危险&lt;/strong&gt;&lt;br&gt;
-危险&lt;/p&gt;
-&lt;/div&gt;
-&lt;div</summary>
+    <summary type="html">&lt;pre class=&quot;line-numbers language-markdown&quot; data-language=&quot;markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;::: tips
+&lt;span class=&quot;token</summary>
         
       
     
     
     
+    
+    <category term="test" scheme="https://i-crafty.github.io/tags/test/"/>
     
   </entry>
   
