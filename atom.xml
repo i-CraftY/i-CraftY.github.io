@@ -6,7 +6,7 @@
   <link href="https://i-crafty.github.io/atom.xml" rel="self"/>
   
   <link href="https://i-crafty.github.io/"/>
-  <updated>2023-04-08T10:07:59.251Z</updated>
+  <updated>2023-04-09T08:31:32.893Z</updated>
   <id>https://i-crafty.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>小玩具</title>
+    <link href="https://i-crafty.github.io/2023/04/09/xiao-wan-ju/"/>
+    <id>https://i-crafty.github.io/2023/04/09/xiao-wan-ju/</id>
+    <published>2023-04-09T07:28:30.000Z</published>
+    <updated>2023-04-09T08:31:32.893Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
+&lt;p&gt;折腾过不少语言，例如&lt;code&gt;Python&lt;/code&gt; &lt;code&gt;Java&lt;/code&gt; &lt;code&gt;C#&lt;/code&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Coding" scheme="https://i-crafty.github.io/categories/Coding/"/>
+    
+    
+    <category term="Javascript" scheme="https://i-crafty.github.io/tags/Javascript/"/>
+    
+    <category term="Tampermonkey" scheme="https://i-crafty.github.io/tags/Tampermonkey/"/>
+    
+    <category term="ScriptCat" scheme="https://i-crafty.github.io/tags/ScriptCat/"/>
+    
+  </entry>
   
   <entry>
     <title>《中药古典文献》</title>
