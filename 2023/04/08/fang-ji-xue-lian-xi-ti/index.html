@@ -339,14 +339,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-06-27
+                    2023-06-28
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    20.6k
+                    20.5k
                 </div>
                 
 
@@ -4206,9 +4206,17 @@
 <p>正确答案：C</p>
 </blockquote>
 <p>​</p>
-<p>​    <under style="margin-left:350px">----------------都看到这里了，给个打赏不过分吧👇👇👇 -----------</under></p>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-<script>var poped = false;document.body.onscroll=()=>{let progress = Number(document.getElementsByClassName('progress-bar')[0].style['width'].slice(0,2));if(poped==false&&progress>80&&progress<=90){poped =true ;console.log("已经弹过咯");swal("都看到这里了，给个打赏不过分吧");setTimeout(()=>{swal.close()},1500)};};swal({
+<script>var poped = false;document.body.onscroll=()=>{let progress = Number(document.getElementsByClassName('progress-bar')[0].style['width'].slice(0,2));if(poped==false&&progress>80&&progress<=90){poped =true ;console.log("已经弹过咯");swal({
+  title: "QAQ",
+  text: "都看到这里了，给个打赏不过分吧~~",
+  icon: "info",
+  buttons: true,
+})
+.then((willReward) => {
+  if (willReward) {
+   $(".reward-link")[0].click();
+  };setTimeout(()=>{swal.close()},1500)};};swal({
   title: "打开问卷星",
   text: "点击OK将打开",
   icon: "info",
@@ -4682,7 +4690,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">76.1k</span>
+                        class="white-color">76k</span>
             
             
             
