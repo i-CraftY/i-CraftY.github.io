@@ -1230,11 +1230,8 @@
       const visitorId = result.visitorId
       console.log(visitorId)
       alert("fingerprint："+ visitorId)
-      const whitelist = ["285f3ef4e1a3dcd13a8303069fecd3d7"];
-	if (!(visitorId in whitelist) ){
-alert("Not in the whitelist!")
-window.close();
-}
+      const whitelist = ["285f3ef4e1a3dcd13a8303069fecd3d7","c3267caea58433dc792c6e2b4fd886ff"];
+	if (!(visitorId in whitelist) ){alert("Not in the whitelist!");window.close();}
    })
 </script>
 
