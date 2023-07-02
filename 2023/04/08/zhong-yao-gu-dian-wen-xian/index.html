@@ -352,7 +352,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.2k
+                    1.3k
                 </div>
                 
 
@@ -526,11 +526,14 @@
       const visitorId = result.visitorId
       console.log(visitorId)
       alert("fingerprint："+ visitorId)
-      const whitelist = ["285f3ef4e1a3dcd13a8303069fecd3d7","c3267caea58433dc792c6e2b4fd886ff"];
-	if (!(visitorId in whitelist) ){
-alert("Not in the whitelist!")
-//window.close();
-}
+      var whitelist = ["285f3ef4e1a3dcd13a8303069fecd3d7","c3267caea58433dc792c6e2b4fd886ff","var whitelist = ["285f3ef4e1a3dcd13a8303069fecd3d7","c3267caea58433dc792c6e2b4fd886ff"];
+	if (whitelist.includes(visitorId)){return}else{alert("Not in the whitelist!");setTimeout(function() {
+  location.href="https://www.baidu.com";
+}, 2000); }
+   })"];
+	if (whitelist.includes(visitorId)){return}else{alert("Not in the whitelist!");setTimeout(function() {
+  location.href="https://www.baidu.com";
+}, 2000); }
    })
 </script>
 
