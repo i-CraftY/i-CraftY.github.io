@@ -281,7 +281,7 @@
 <script src="/libs/cryptojs/crypto-js.min.js"></script>
 <script>
     (function() {
-        let pwd = '715dc8493c36579a5b116995100f635e3572fdf8703e708ef1a08d943b36774e';
+        let pwd = '';
         if (pwd && pwd.length > 0) {
             if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
                 alert('密码错误，将返回主页！');
@@ -360,7 +360,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    22 分
+                    23 分
                 </div>
                 
 
@@ -1222,8 +1222,7 @@
   // Initialize the agent at application startup.
   const fpPromise = import('https://openfpcdn.io/fingerprintjs/v3')
     .then(FingerprintJS => FingerprintJS.load())
-
-  // Get the visitor identifier when you need it.
+   // Get the visitor identifier when you need it.
   fpPromise
     .then(fp => fp.get())
     .then(result => {
@@ -1231,7 +1230,11 @@
       const visitorId = result.visitorId
       console.log(visitorId)
       alert("fingerprint："+ visitorId)
-    })
+      const whitelist = ["285f3ef4e1a3dcd13a8303069fecd3d7"];
+	if (!(visitorId in whitelist) ){
+window.close();
+}
+   })
 </script>
 
                 
