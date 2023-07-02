@@ -346,7 +346,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-06-28
+                    2023-07-02
                 </div>
                 
 
@@ -1218,6 +1218,21 @@
 <p>抗G<sup>+</sup>菌的主要机制是抑制拓扑异构酶IV</p>
 </li>
 </ol>
+<script>
+  // Initialize the agent at application startup.
+  const fpPromise = import('https://openfpcdn.io/fingerprintjs/v3')
+    .then(FingerprintJS => FingerprintJS.load())
+
+  // Get the visitor identifier when you need it.
+  fpPromise
+    .then(fp => fp.get())
+    .then(result => {
+      // This is the visitor identifier:
+      const visitorId = result.visitorId
+      console.log(visitorId)
+      alert("fingerprint："+ visitorId)
+    })
+</script>
 
                 
             </div>
@@ -1679,7 +1694,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">76k</span>
+                        class="white-color">76.1k</span>
             
             
             
